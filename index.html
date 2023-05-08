@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="icons8-dog-64.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Tu Mascota App</title>
+</head>
+<body id="page-top">
+   <!-- Navigation-->
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <h1 class="text-white"><a id="titulin" class="text-white" href="index.html">Tu Mascota App</a>  <img id="logo" src="icons8-dog-64.png" alt=""></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#PlacaQr">Placas QR</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#insta">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <div class="fondo d-flex justify-content-center align-items-center">
+      <header class="transparente masthead">
+        <div class="container text-center">
+            <div class="titulo masthead-subheading mb-2">Bienvenido a Tu Mascota App!</div>
+            <div class="subtitulo masthead-heading text-uppercase mb-5"><span>Placas QR</span> para tu mascota</div>
+            <button id="botoncito" class="p-2 bg-danger"><a href="#saber-mas">SABER MAS</a></button>
+        </div>
+      </div>
+    </header>
+    <section class="page-section" id="saber-mas">
+      <div class="container text-center">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase mt-4">Servicios</h2>
+              <h3 class="nuestras_placas section-subheading">Nuestras placas QR Almacenan información de la mascota y de su dueño para evitar extravíos.</h3>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-shopping-cart fa-stack-1x fa-inverse">
+                        <img id="logox-qr" src="logixx.png" alt="">
+                      </i>
+                  </span>
+                  <h4 class="my-1">Placas QR</h4>
+                  <p class="text-muted">Sistema Innovador que protege a tu Mascota. Los diseños son personalizables</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-laptop fa-stack-1x fa-inverse">
+                        <img id="logox" src="icons8-collar-de-perro-48.png" alt="">
+                      </i>
+                  </span>
+                  <h4 class="my-1">Placa QR con Collares y Correas</h4>
+                  <p class="text-muted">Todas las placas tienen la opcion de contar con un collar adicional y/o una correa.</p>
+              </div>
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-lock fa-stack-1x fa-inverse">
+                      <img id="logox" src="icons8-google-maps-48.png" alt="">
+                    </i>
+                </span>
+                <h4 class="my-1">Ubicacion</h4>
+                <p class="text-muted">No contamos con una tienda fisica, nos encontramos en la zona norte de la ciudad de Salta Capital.</p>
+            </div>
+          </div>
+      </div>
+  </section>
+<section class="page-section bg-light text-center" id="portfolio">
+    <div class="container text-center">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase mt-5 pt-4" id="PlacaQr">¿Por qué tener una placa QR?</h2>
+            <h3 class="solucion section-subheading">Soluciona la problemática de tantos extravíos que se da en todo el país</h3>
+        </div>
+                <!-- Portfolio item 1-->
+              <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <video class="img-fluid" src="video_punky.mp4"controls></video>
+                    </a>
+                  </div>
+                    <div class="portfolio-caption text-center">
+                      <div class="placas portfolio-caption-heading text-center">Placas QR</div>
+                      <div class="portfolio-caption-subheading text-muted">Nuestras placas cuentan con variados diseños, se pueden elegir colores sólidos, tipo de fuente y fondos para el diseño. Puede visualizar todo esto en la siguiente carpeta</div>
+                      <button class="botoncito2 p-2 mt-2 bg-success"><a href="https://drive.google.com/drive/folders/18_hus8kE51X8jjAbg9PczQOfNuDPkUzD?usp=sharing" target="_blank">Visualizar Diseños <img id="ojito" src="icons8-visible-50.png" alt=""></a></button>               
+                    </div>
+                </div>
+    <section class="page-section mt-4" id="Nosotros">
+      <div class="container text-center">
+          <div class="container text-center">
+                  <h2 class="section-heading text-uppercase">Nosotros</h2>
+                  <div class="portfolio-caption-subheading text-muted">Tu Mascota App es un emprendimiento innovador para el cuidado de mascotas. Hemos creado una landing page que almacena datos de la mascota y de su dueño. Esto surgió debido a que se pierden muchas mascotas por día y pocos se toman el trabajo de subir una foto o información de haber encontrado a estas mascotas extraviadas. Scanneando el codigo QR de la placa de la mascota, podra facilitar el encuentro con su dueño</div>
+                  <img class="img-fluid" src="logo_tumascotapp.png" id="logo_mascota"></img>
+                  <div class="portfolio-caption-subheading" id="info">Nuestra landing page ofrece la siguiente informacion </div>
+                  <img class="img-fluid mb-5" src="gato.png" id="gato"></img>
+            </div>
+      </div>
+    </section>
+    <footer class="py-1 text-white text-center">
+      <p>Copyright &copy; Tu Mascota App</p>
+      <p id="insta"><img id="ig" src="./icons8-instagram-24.png" alt=""> Instagram: <a id="instagramxd" href="https://www.instagram.com/tu.mascotapp/">tu.mascotapp</a></p>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=3876841658&text=Hola! Me interesa encargar una placa QR para mi mascota!" class="btn-wsp" target="_blank">
+    <img id="whatsapp" src="WhatsApp_icon.png" alt="">
+  </a>
+</body>
+</html>

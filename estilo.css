@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    font-family: 'Lilita One', cursive;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgb(101, 93, 139);
+}
+#titulin{
+    text-decoration: none;
+}
+.nav-item a{
+    color: white;
+}
+#logo{
+    width: 40px;
+}
+.container-fluid h1{
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+}
+.container-fluid a{
+    margin: 40px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    transition: all ease-in-out 5ms;
+}
+.container-fluid a:hover{
+    color: pink;
+}
+.container-fluid #navbarNav{
+    justify-content: space-around;
+}
+.masthead #perruno{
+    width: 100%;
+    height: 89vh;
+}
+.masthead #qr-code{
+    width: 30px;
+}
+.fondo{
+    background-image: url(perrox.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.transparente{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 3.6rem;
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 2px black;
+}
+.subtitulo{
+    font-size: 1.8rem;
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 2px black;
+}
+span{
+    color: rgb(136, 45, 60);
+}
+#botoncito{
+    width: 110px;
+    border: none;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.795);
+    border-radius: 18px;
+    
+}
+#botoncito a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    text-shadow: none;
+    
+}
+.portfolio-item video{
+    height: 600px;
+}
+.nuestras_placas{
+    font-size: 1.2em;
+    color: rgb(136, 45, 60);
+}
+#logox-qr{
+    width: 80px;
+    border: 5px solid;
+    border-radius: 50%;
+    color: rgb(101, 93, 139);
+}
+#logox{
+    width: 70px;
+    padding: 5px;
+    border: 5px solid;
+    border-radius: 50%;
+    color: rgb(101, 93, 139);
+}
+.solucion{
+    font-size: 1.3rem;
+    color: rgb(136, 45, 60);
+}
+.placas{
+    font-size: 1.8rem;
+}
+#info{
+    font-size: 1.6rem;
+}
+#logo_mascota{
+    height: 250px;
+    border-radius: 50px;
+}
+#gato{
+    height: 500px;
+}
+.botoncito2{
+    width: 18 5px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.795);
+}
+#ojito{
+    width: 30px;
+}
+.botoncito2 a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+footer #instagramxd{
+    font-size: 1.2em;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+    padding: 2px;
+    color: white;
+    text-shadow: 2px 2px 2px  rgb(101, 93, 139); ;
+    text-decoration: none;
+}
+#insta{
+    position: relative;
+    top: -15px;
+}
+#ig{
+    margin-bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+footer button{
+    border-radius: 20px;
+    border: none;
+    background:none;
+}
+.btn-wsp #whatsapp{
+    position:fixed;
+    width:40px;
+    height:40px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    background:#25d366;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:43px;
+        height:43px;
+        line-height: 66px;
+	}
+}
